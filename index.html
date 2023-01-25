@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./index.scss">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="body">
+    <h1 class="h1">HAFTA KUNLARI.</h1>
+      <form class="form">
+        <input class="input" type="text" placeholder="son kiriting" >
+      </form>
+      <h1 class="result"></h1>
+        <button class="btn" onclick="myFunction()">fonni  ozgartrin</button>
+        
+        <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+      
+    <script src="./script.js"></script>
+</body>
+</html>
